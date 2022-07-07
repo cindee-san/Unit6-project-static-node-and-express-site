@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project-name": "A Random Quote Generator",
+            "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["JavaScript"],
+            "live_link": "https://cindee-san.github.io/Techdegree-Unit1-priject-fixed/",
+            "github_link": "https://github.com/cindee-san/Techdegree-Unit1-priject-fixed",
+            "image_urls": [
+                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.27.34 PM.jpg",
+                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.45.54 PM.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "project-name": "A Random Quote Generator",
+            "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["JavaScript"],
+            "live_link": "https://cindee-san.github.io/Techdegree-Unit1-priject-fixed/",
+            "github_link": "https://github.com/cindee-san/Techdegree-Unit1-priject-fixed",
+            "image_urls": [
+                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.27.34 PM.jpg",
+                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.45.54 PM.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "project-name": "A Random Quote Generator",
+            "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["JavaScript"],
+            "live_link": "https://cindee-san.github.io/Techdegree-Unit1-priject-fixed/",
+            "github_link": "https://github.com/cindee-san/Techdegree-Unit1-priject-fixed",
+            "image_urls": [
+                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.27.34 PM.jpg",
+                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.45.54 PM.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "project-name": "A Random Quote Generator",
+            "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["JavaScript"],
+            "live_link": "https://cindee-san.github.io/Techdegree-Unit1-priject-fixed/",
+            "github_link": "https://github.com/cindee-san/Techdegree-Unit1-priject-fixed",
+            "image_urls": [
+                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.27.34 PM.jpg",
+                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.45.54 PM.jpg"
+            ]
+        }
+        
+    ]
+}
