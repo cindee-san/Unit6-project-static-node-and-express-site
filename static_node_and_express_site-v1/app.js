@@ -23,6 +23,7 @@ app.get('/projects/:id', (req, res, next) => {
     if (project) {
         res.render('project', { project: projects[req.params.id] });
       } else {
+        //this works, err.message logs to console.
         console.log("project id wrong")
         const err = new Error();
         err.status = 404;
@@ -47,10 +48,12 @@ app.use((err, req, res, next) => {
     console.log('Global error handler called', err);
   }
     if(err.status === 404){
+      //this works.
       res.status = 404;
       res.render('not-found', { err });
     } 
     else {
+      //how to test this??
       console.log('500 error being handled');
       err.message = err.message || `Oops!  It looks like something went wrong on the server.`
       res.status(err.status || 500);
