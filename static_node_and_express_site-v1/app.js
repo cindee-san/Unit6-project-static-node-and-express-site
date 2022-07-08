@@ -51,6 +51,7 @@ app.use((err, req, res, next) => {
       res.render('not-found', { err });
     } 
     else {
+      console.log('500 error being handled');
       err.message = err.message || `Oops!  It looks like something went wrong on the server.`
       res.status(err.status || 500);
       res.render('error', { err });
