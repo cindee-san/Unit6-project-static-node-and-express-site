@@ -1,25 +1,62 @@
 const express = require('express');
-const data = require('./data.json');
+const { projects } = require('./data.json');
 
 
 app = express();
 
 app.set('view engine', 'pug');
 
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', { projects });
 });
 
 app.get('/about', (req, res) => {
-    res.send('About Page!');
+    res.render('About Page!');
 });
 
-app.get('/projects', (req, res) => {
-    res.send('Project page Wassup!');
-    res.render();
+app.get('/projects/:id', (req, res, next) => {
+    const projectId = req.params.id;
+    const project = projects.find( ({ id }) => id === +projectId );
+    
+    if (project) {
+        res.render('project', { project: projects[req.params.id] });
+      } else {
+        console.log("project id wrong")
+        const err = new Error();
+        err.status = 404;
+        err.message = 'Looks like the project you requested does not exist'
+        next(err);
+      }
+    
 });
+
+//Error handler for requests to undefined routes (works)
+app.use((req, res, next) => {
+ 
+  console.log('404 error handler called');
+  res.status(404)
+  res.render('not-found')
+  });
+
+  //global error handler
+app.use((err, req, res, next) => {
+
+  if (err) {
+    console.log('Global error handler called', err);
+  }
+    if(err.status === 404){
+      res.status = 404;
+      res.render('not-found', { err });
+    } 
+    else {
+      err.message = err.message || `Oops!  It looks like something went wrong on the server.`
+      res.status(err.status || 500);
+      res.render('error', { err });
+    }
+});
+
 app.listen(3000, ()=>{
     console.log('I am running on localhost 3000!')
 });
