@@ -2,50 +2,54 @@
     "projects": [
         {
             "id": 0,
-            "project-name": "A Random Quote Generator",
+            "project_name": "A Random Quote Generator",
             "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
-            "technologies": ["JavaScript"],
+            "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": "https://cindee-san.github.io/Techdegree-Unit1-priject-fixed/",
             "github_link": "https://github.com/cindee-san/Techdegree-Unit1-priject-fixed",
             "image_urls": [
-                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.27.34 PM.jpg",
-                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.45.54 PM.jpg"
+                "/static/images/Unit 6 Pics/1/project1-1.jpg",
+                "/static/images/Unit 6 Pics/1/project1-2.jpg",
+                "/static/images/Unit 6 Pics/1/project1-3.jpg"
             ]
         },
         {
             "id": 1,
-            "project-name": "A Random Quote Generator",
-            "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
-            "technologies": ["JavaScript"],
-            "live_link": "https://cindee-san.github.io/Techdegree-Unit1-priject-fixed/",
-            "github_link": "https://github.com/cindee-san/Techdegree-Unit1-priject-fixed",
+            "project_name": "Data Pagination and Filtration",
+            "description": "In this project, I used a common web development technique known as “pagination” to enhance the usability of a web page. I started with a file that contained information for 42 students, including name, email, and picture. I used my JavaScript skills to display the first nine students on the page. Then, I added navigation, also known as pagination buttons, that the user can click to display different pages of students.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://cindee-san.github.io/Treehouse-Unit2-data_pagination-filtration-crosby/",
+            "github_link": "https://github.com/cindee-san/Treehouse-Unit2-data_pagination-filtration-crosby",
             "image_urls": [
-                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.27.34 PM.jpg",
-                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.45.54 PM.jpg"
+                "/static/images/Unit 6 Pics/2/project2-1.jpg",
+                "/static/images/Unit 6 Pics/2/project2-2.jpg",
+                "/static/images/Unit 6 Pics/2/project2-3.jpg"
             ]
         },
         {
             "id": 2,
-            "project-name": "A Random Quote Generator",
-            "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
-            "technologies": ["JavaScript"],
-            "live_link": "https://cindee-san.github.io/Techdegree-Unit1-priject-fixed/",
-            "github_link": "https://github.com/cindee-san/Techdegree-Unit1-priject-fixed",
+            "project_name": "Interactive Form",
+            "description": "In this project, I used JavaScript to enhance an interactive registration form for a fictional Full Stack conference. Using the supplied HTML and CSS files, I added my own JavaScript to make the form more user-friendly by adding customized and conditional behavior and interactivity, and validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://cindee-san.github.io/Techdrgree-Interactive_form-Unit3-Crosby/",
+            "github_link": "https://github.com/cindee-san/Techdrgree-Interactive_form-Unit3-Crosby",
             "image_urls": [
-                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.27.34 PM.jpg",
-                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.45.54 PM.jpg"
+                "/static/images/Unit 6 Pics/3/project3-1.jpg",
+                "/static/images/Unit 6 Pics/3/project3-2.jpg",
+                "/static/images/Unit 6 Pics/3/project3-3.jpg"
             ]
         },
         {
             "id": 3,
-            "project-name": "A Random Quote Generator",
-            "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
-            "technologies": ["JavaScript"],
-            "live_link": "https://cindee-san.github.io/Techdegree-Unit1-priject-fixed/",
-            "github_link": "https://github.com/cindee-san/Techdegree-Unit1-priject-fixed",
+            "project_name": "Object Oriented Programming Game Show App",
+            "description": "In this project, I created a browser-based, word guessing game called Phrase Hunter. You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://cindee-san.github.io/Techdegree-Unit4-Project-oop-game-show-app/",
+            "github_link": "https://github.com/cindee-san/Techdegree-Unit4-Project-oop-game-show-app",
             "image_urls": [
-                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.27.34 PM.jpg",
-                "/Users/ccrosby2/Documents/Code/Techdegree Projects/Techdegree-Unit6-project/Unit6-project-static-node-and-express-site/static_node_and_express_site-v1/images/Unit 6 Pics/1/Screen Shot 2022-07-06 at 2.45.54 PM.jpg"
+                "/static/images/Unit 6 Pics/4/project4-1.jpg",
+                "/static/images/Unit 6 Pics/4/project4-2.jpg",
+                "/static/images/Unit 6 Pics/4/project4-3.jpg"
             ]
         }
         
