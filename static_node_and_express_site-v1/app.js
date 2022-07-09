@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.render('About Page!');
+    res.render('about');
 });
 
 app.get('/projects/:id', (req, res, next) => {

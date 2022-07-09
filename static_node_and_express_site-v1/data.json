@@ -10,7 +10,8 @@
             "image_urls": [
                 "/static/images/Unit-6-Pics/1/project1-1-AOC-quote-teal.jpg",
                 "/static/images/Unit-6-Pics/1/project1-2-Burks-quote-green.jpg",
-                "/static/images/Unit-6-Pics/1/project1-3-salaam-quote-azalea.jpg"
+                "/static/images/Unit-6-Pics/1/project1-3-salaam-quote-azalea.jpg",
+                "/static/images/Unit-6-Pics/1/project1-profile-AOC-quote-yellow.jpg"
             ]
         },
         {
@@ -23,7 +24,8 @@
             "image_urls": [
                 "/static/images/Unit-6-Pics/2/project2-1-woman-student-example.jpg",
                 "/static/images/Unit-6-Pics/2/project2-2-student-pagination-example.jpg",
-                "/static/images/Unit-6-Pics/2/project2-3-fullpage-student-pagination-example.jpg"
+                "/static/images/Unit-6-Pics/2/project2-3-fullpage-student-pagination-example.jpg",
+                "/static/images/Unit-6-Pics/2/project2-profile-fullpage-students-with-pagination.jpg"
             ]
         },
         {
@@ -36,7 +38,8 @@
             "image_urls": [
                 "/static/images/Unit-6-Pics/3/project3-1-basic-info-validation.jpg",
                 "/static/images/Unit-6-Pics/3/project3-2-activities-validation.jpg",
-                "/static/images/Unit-6-Pics/3/project3-3-credit-card-validation.jpg"
+                "/static/images/Unit-6-Pics/3/project3-3-credit-card-validation.jpg",
+                "/static/images/Unit-6-Pics/3/project3-profile-landing-page.jpg"
             ]
         },
         {
@@ -49,7 +52,8 @@
             "image_urls": [
                 "/static/images/Unit-6-Pics/4/project4-1-phrase-full-hearts.jpg",
                 "/static/images/Unit-6-Pics/4/project4-2-win-screen.jpg",
-                "/static/images/Unit-6-Pics/4/project4-3-lost-screen.jpg"
+                "/static/images/Unit-6-Pics/4/project4-3-lost-screen.jpg",
+                "/static/images/Unit-6-Pics/4/project4-profile-phrase-two-hearts.jpg"
             ]
         },
         {
@@ -62,7 +66,8 @@
             "image_urls": [
                 "/static/images/Unit-6-Pics/5/project5-1-directory-landing-page.jpg",
                 "/static/images/Unit-6-Pics/5/project5-2-modal-window-1.jpg",
-                "/static/images/Unit-6-Pics/5/project5-3-modal-window-2.jpg"
+                "/static/images/Unit-6-Pics/5/project5-3-modal-window-2.jpg",
+                "/static/images/Unit-6-Pics/5/project5-profile-full-landing-page.jpg"
             ]
         }
         
