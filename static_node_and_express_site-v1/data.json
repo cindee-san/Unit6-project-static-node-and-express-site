@@ -4,7 +4,7 @@
             "id": 0,
             "project_name": "A Random Quote Generator",
             "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
-            "technologies": ["JavaScript", "CSS", "HTML"],
+            "technologies": ["JavaScript", "CSS", "HTML", "Git and Github", "VS Code"],
             "live_link": "https://cindee-san.github.io/Techdegree-Unit1-priject-fixed/",
             "github_link": "https://github.com/cindee-san/Techdegree-Unit1-priject-fixed",
             "image_urls": [
@@ -18,7 +18,7 @@
             "id": 1,
             "project_name": "Data Pagination and Filtration",
             "description": "In this project, I used a common web development technique known as “pagination” to enhance the usability of a web page. \n I started with a file that contained information for 42 students, including name, email, and picture. I used my JavaScript skills to display the first nine students on the page. Then, I added navigation, also known as pagination buttons, that the user can click to display different pages of students.",
-            "technologies": ["JavaScript", "CSS", "HTML"],
+            "technologies": ["JavaScript", "CSS", "HTML", "Git and Github", "VS Code"],
             "live_link": "https://cindee-san.github.io/Treehouse-Unit2-data_pagination-filtration-crosby/",
             "github_link": "https://github.com/cindee-san/Treehouse-Unit2-data_pagination-filtration-crosby",
             "image_urls": [
@@ -32,7 +32,7 @@
             "id": 2,
             "project_name": "Interactive Form",
             "description": "In this project, I used JavaScript to enhance an interactive registration form for a fictional Full Stack conference. \n Using the supplied HTML and CSS files, I added my own JavaScript to make the form more user-friendly by adding customized and conditional behavior and interactivity, and validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
-            "technologies": ["JavaScript", "CSS", "HTML"],
+            "technologies": ["JavaScript", "CSS", "HTML", "Git and Github", "VS Code", "Accessibility"],
             "live_link": "https://cindee-san.github.io/Techdrgree-Interactive_form-Unit3-Crosby/",
             "github_link": "https://github.com/cindee-san/Techdrgree-Interactive_form-Unit3-Crosby",
             "image_urls": [
@@ -46,7 +46,7 @@
             "id": 3,
             "project_name": "Object Oriented Programming Game Show App",
             "description": "In this project, I created a browser-based, word guessing game called Phrase Hunter. \n I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
-            "technologies": ["JavaScript", "CSS", "HTML"],
+            "technologies": ["JavaScript", "CSS", "HTML", "Git and Github", "VS Code", "OOP"],
             "live_link": "https://cindee-san.github.io/Techdegree-Unit4-Project-oop-game-show-app/",
             "github_link": "https://github.com/cindee-san/Techdegree-Unit4-Project-oop-game-show-app",
             "image_urls": [
@@ -60,7 +60,7 @@
             "id": 4,
             "project_name": "Public API Requests",
             "description": "For this project, I built an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. \n I used the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and use that data to build a prototype for an Awesome Startup employee directory. \n I requested a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. \n Clicking the employee’s image or name opens a modal window with more detailed information, such as the employee’s birthday and address.",
-            "technologies": ["JavaScript", "CSS", "HTML"],
+            "technologies": ["JavaScript", "CSS", "HTML", "Git and Github", "VS Code", "Fetch and Public APIs"],
             "live_link": "https://cindee-san.github.io/Techdegree-Unit5-project-Public-API-requests/",
             "github_link": "https://github.com/cindee-san/Techdegree-Unit5-project-Public-API-requests",
             "image_urls": [

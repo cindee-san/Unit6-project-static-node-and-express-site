@@ -7,20 +7,13 @@ block content
     
     h1 Cindee's Portfolio
 
-    //- 
     p A collection of my Treehouse TechDegree projects 1-5. This website is project 6, the goal of which is to create ths website and link to the projects I have created already so you can check them out!!
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
+  
       each project in projects
-
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
 
         .cell
           a(href=`projects/${project.id}`)

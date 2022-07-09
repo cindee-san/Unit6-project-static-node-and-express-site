@@ -1,6 +1,19 @@
 const express = require('express');
 const { projects } = require('./data.json');
 
+// Importing http module, help from https://www.geeksforgeeks.org/how-to-change-npm-start-script-of-node-js/
+const http = require("http")
+  
+// Creating Server
+const server = http.createServer((req,res)=>{
+    req.statusCode=200;
+    res.end();
+});
+  
+// Executing the server
+server.listen(3000,"localhost",()=>{
+    console.log("Server is Running ")
+})
 
 app = express();
 
@@ -8,14 +21,17 @@ app.set('view engine', 'pug');
 
 app.use('/static', express.static('public'));
 
+//home page
 app.get('/', (req, res) => {
     res.render('index', { projects });
 });
 
+//about me page
 app.get('/about', (req, res) => {
     res.render('about');
 });
 
+//renders project pages using project's id property, serves up error message if project id does not exist
 app.get('/projects/:id', (req, res, next) => {
     const projectId = req.params.id;
     const project = projects.find( ({ id }) => id === +projectId );
@@ -23,7 +39,6 @@ app.get('/projects/:id', (req, res, next) => {
     if (project) {
         res.render('project', { project: projects[req.params.id] });
       } else {
-        //this works, err.message logs to console.
         console.log("project id wrong")
         const err = new Error();
         err.status = 404;
@@ -33,7 +48,7 @@ app.get('/projects/:id', (req, res, next) => {
     
 });
 
-//Error handler for requests to undefined routes (works)
+//Error handler for requests to undefined routes 
 app.use((req, res, next) => {
  
   console.log('404 error handler called');
@@ -48,12 +63,10 @@ app.use((err, req, res, next) => {
     console.log('Global error handler called', err);
   }
     if(err.status === 404){
-      //this works.
       res.status = 404;
       res.render('not-found', { err });
     } 
     else {
-      //how to test this??
       console.log('500 error being handled');
       err.message = err.message || `Oops!  It looks like something went wrong on the server.`
       res.status(err.status || 500);
